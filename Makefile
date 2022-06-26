@@ -10,9 +10,12 @@ FLAGS = -Wall -Wextra -Werror
 
 LIBFT = libft/libft.a
 
-SRC_SERVER =server.c
+SRC_SERVER =server.c \
+			ft_receve.c \
 
-SRC_CLIENT = client.c
+SRC_CLIENT = client.c \
+			send_char.c \
+			send_msg.c \
 
 CLIENT_DIR = src_client/
 
